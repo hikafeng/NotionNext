@@ -23,8 +23,8 @@ const SocialButton = () => {
       {siteConfig('CONTACT_WEIBO') && <a target='_blank' rel='noreferrer' title={'weibo'} href={siteConfig('CONTACT_WEIBO')} >
         <i className='transform hover:scale-125 duration-150 fab fa-weibo dark:hover:text-indigo-400 hover:text-indigo-600'/>
       </a>}
-      {siteConfig('CONTACT_INSTAGRAM') && <a target='_blank' rel='noreferrer' title={'instagram'} href={siteConfig('CONTACT_INSTAGRAM')} >
-        <i className='transform hover:scale-125 duration-150 fab fa-instagram dark:hover:text-indigo-400 hover:text-indigo-600'/>
+      {siteConfig('CONTACT_XIAOHONGSHU') && <a target='_blank' rel='noreferrer' title={'instagram'} href={siteConfig('CONTACT_XIAOHONGSHU')} >
+        <i className='transform hover:scale-125 duration-150 fa-solid fa-book dark:hover:text-indigo-400 hover:text-indigo-600'/>
       </a>}
       {siteConfig('CONTACT_EMAIL') && <a target='_blank' rel='noreferrer' title={'email'} href={`mailto:${siteConfig('CONTACT_EMAIL')}`} >
         <i className='transform hover:scale-125 duration-150 fas fa-envelope dark:hover:text-indigo-400 hover:text-indigo-600'/>
