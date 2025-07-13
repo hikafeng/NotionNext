@@ -22,8 +22,8 @@ function SiteInfo({ title }) {
         {siteConfig('BEI_AN') && (
           <>
             <i className='fas fa-shield-alt' />
-            <a href={siteConfig('BEI_AN_LINK')} className='mr-2'>
-              {siteConfig('BEI_AN')}
+            <a href ={ siteConfig('BEI_AN_LINK') ? siteConfig('BEI_AN_LINK') : 'https://beian.miit.gov.cn/'} className='mr-2'>
+                        {siteConfig('BEI_AN')}
             </a>
             <br />
           </>
